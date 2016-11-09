@@ -99,7 +99,7 @@ class Chef
           #{convert_to_groovy(new_resource.description)},
           new VirtualFileItem(),
           null,
-          null
+          (String)null
         )
       EOH
     end
